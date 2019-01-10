@@ -1,0 +1,61 @@
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+    background-color:#FFFFFF !important;
+}
+body{ 
+    background-color:#FFFFFF !important;
+    color:#000000;
+}
+h1,h2 {
+    margin:0;
+    padding:0;
+}
+.space20 {
+    padding:0px 25px 10px 25px;
+}
+table#statsx {
+    padding:0px;
+}
+table#statsx tbody tr td {
+    padding:1px;
+    margin:1px 5px;
+    color:#000000;
+}
+table#statsx thead tr th {
+    color:#000000 !important;
+}
+table#statsx {
+    background-color:#FFFFFF;
+}
+table#statsx img.mycompany-logo-invoice {
+    max-width:19%;
+    width:19%;
+}
+table#statsx tbody tr td {
+    height:20px !important;
+}
+table#statsx tbody tr td h5 {
+    line-height:12px !important;
+    margin:0;
+    padding:0;
+}
+table#statsx tbody tr:nth-child(3) td h5 {
+    margin-top:14px;
+}
+table#statsx tr {
+    line-height:1px;
+    padding:4px;
+}
+table#statsx tr td {
+    background: #FFFFFF;
+    margin:0px;
+}
+table#statsx tr td h3 {
+    font-size:24px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+.text-warning,.text-success {
+    color:#000000 !important;
+}

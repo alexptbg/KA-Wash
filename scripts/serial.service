@@ -1,0 +1,11 @@
+[Unit]
+Description=Serial RFID
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/var/www/html/node/serial.sh
+Restart=on-abort
+ 
+[Install]
+WantedBy=multi-user.target

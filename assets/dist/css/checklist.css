@@ -1,0 +1,77 @@
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
+body{ 
+    background-color:#FFFFFF;
+    color:#000000;
+}
+.space20 {
+    padding:0px 25px 10px 25px;
+}
+table#order {
+    padding:0px;
+}
+table#order tbody tr td {
+    padding:1px;
+    margin:1px 5px;
+}
+table#order {
+    background-color:#FFFFFF;
+}
+table#order img.mycompany-logo-invoice {
+    max-width:19%;
+    width:19%;
+}
+table#order tbody tr td {
+    height:20px !important;
+}
+table#order tbody tr td h5 {
+    line-height:12px !important;
+    margin:0;
+    padding:0;
+}
+table#order tbody tr:nth-child(3) td h5 {
+    margin-top:14px;
+}
+table#order tr {
+    line-height:1px;
+    padding:4px;
+}
+table#order tr td {
+    background: #FFFFFF;
+    margin:0px;
+}
+table#order tr td h3 {
+    font-size:24px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+table#services {
+    margin-top:30px;
+    width:100%;
+}
+table#services thead tr th {
+    color:#000000 !important;
+}
+table#services tbody tr td {
+    font-size:12px;
+    padding:4px;
+    margin:4px 5px;
+}
+table#services tr th {
+    background-color:#EEEEEE;
+    color:#000000 !important;
+}
+table#services tr:nth-child(even) {
+    background: #FAFAFA;
+}
+table#services tr:nth-child(odd) {
+    background: #FFFFFF;
+}
+table#services thead tr th:last-child {
+    display:none;
+}
+table#services tbody tr td:last-child {
+    display:none;
+}
